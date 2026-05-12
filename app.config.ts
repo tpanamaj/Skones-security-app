@@ -28,11 +28,11 @@ const schemeFromBundleId = `manus${timestamp}`;
 
 const env = {
   // App branding - update these values directly (do not use env vars)
-  appName: "Skones Security Management App",
+  appName: "Skones Security",
   appSlug: "skones-app",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "https://d2xsxph8kpxj0f.cloudfront.net/310519663649589276/8QycsFQEtLwwn38V836Uyb/icon-8PBUGCAWYtDa327PrgLanD.webp",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
@@ -42,6 +42,7 @@ const config: ExpoConfig = {
   name: env.appName,
   slug: env.appSlug,
   version: "1.0.0",
+  description: "Skones Security Management App - Guard Monitoring, Merit Scoring, and Payroll Management",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   scheme: env.scheme,
