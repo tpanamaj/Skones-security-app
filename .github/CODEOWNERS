@@ -1,0 +1,39 @@
+# Code Owners for Skones Security Management App
+# This file specifies who should review pull requests for different parts of the codebase
+# GitHub will automatically request reviews from these owners
+
+# Default owners for everything
+* @tpanamaj
+
+# Security-critical files
+lib/encryption.ts @tpanamaj
+lib/security.ts @tpanamaj
+lib/secure-storage.ts @tpanamaj
+lib/auth-context.tsx @tpanamaj
+SECURITY.md @tpanamaj
+
+# Configuration files
+app.config.ts @tpanamaj
+package.json @tpanamaj
+tsconfig.json @tpanamaj
+tailwind.config.js @tpanamaj
+theme.config.js @tpanamaj
+
+# GitHub workflows and CI/CD
+.github/workflows/ @tpanamaj
+.github/branch-protection.md @tpanamaj
+
+# Documentation
+*.md @tpanamaj
+DEVELOPER_GUIDE.md @tpanamaj
+ENVIRONMENT_SETUP.md @tpanamaj
+
+# Environment and secrets
+.env* @tpanamaj
+.gitignore @tpanamaj
+
+# Backend server
+server/ @tpanamaj
+
+# Tests
+**/__tests__/ @tpanamaj
