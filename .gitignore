@@ -87,6 +87,7 @@ secrets/
 .token
 credentials.json
 service-account-key.json
+serviceAccountKey.json
 
 # SSH keys
 id_rsa
@@ -115,3 +116,7 @@ API_KEYS.md
 *.p12
 *.pfx
 *.pkcs12
+
+# Firebase
+.firebase/
+.firebaserc.local
